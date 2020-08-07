@@ -85,7 +85,8 @@ ul {
     justify-content: space-around;
 }
 .skill-detail{
-    width: 33%;
+    width: 32.5%;
+    margin: 0 20px;
 }
 .skill-detail h3{
     padding-left: 5px;
