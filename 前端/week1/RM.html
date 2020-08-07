@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./RM.css">
+    <title>My RM</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://picsum.photos/id/684/300/300" alt="">
+            <div class="text">
+                <h1>蔡秉逸/Ben</h1>
+                <p>您好,我是蔡秉逸,是從工廠端出生的業務，
+                    從小有著對程式的熱情,直到出社會一陣子才下定決心投入。
+                    目前在資策會上課,課程是全端工程師。</p>
+                <span>Email:bem0507@hotmail.com                    
+                </span>
+                <span>Phone:0972865825</span>
+            </div>
+        </div>
+        <div class="main">
+            <div class="study">
+                <h2>學歷</h2>
+                <hr>
+                <ul>
+                    <li>大學-高雄餐旅大學</li>
+                    <li>五專-文藻外語大學</li>
+                </ul>
+            </div>
+            <div class="workexprience">
+                <h2>工作經驗</h2>
+                <hr>
+                <ul>
+                    <li>無軟體相關經驗-至今</li>
+                    <li>台灣電緣-專案業務</li>
+                    <li>鼎耀開發-品保工程師</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <h2>技能</h2>
+                <div class="skill-menu">
+                    <div class="skill-detail">
+                        
+                        <h3>前端</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                        </ul>
+                    </div>
+                    <div class="skill-detail">
+                        <!-- <hr> -->
+                        <h3>後端</h3>
+                        <ul>
+                            <li>C#</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                    <div class="skill-detail">
+                        <!-- <hr> -->
+                        <h3>語言</h3>
+                        <ul>
+                            <li>中文-精通</li>
+                            <li>英文-尚可</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="
+            autobiography">
+                <h2>自傳</h2>
+                <hr>
+                <p>
+                    求職的經驗,有待過工廠,也坐過辦公室, 因為接觸的層面不同,也因此培養了良好的溝通協調,以及換位思考的能力。
+                    於上份工作中,幫助公司重新導入ERP系統時,與廠商有密切的溝通、規劃,並從中學習了一點程式語言的基本概念,因此再度燃
+                    起了小時候對於想寫程式的念頭。而後自己多方面研究,以及摸索自學後,才決定轉職。
+                    目前參加資策會的全端工程師養成班,練就了紮實的程式基礎,也學會了自行解學問題的能力。
+                    再專題上有幸擔任組長,專題內容是食譜搭配食材的購物平台網站,工作內容如下
+                    <u1>
+                        <li>前端網頁建置,各分頁功能實作</li>
+                        <li>MVC為設計模式,以便簡化程式的開發以及增強可維護性</li>
+                        <li>整合各組員實作功能</li>
+                        <li>資料庫架設於Azure雲端</li>
+                    </u1>
+                    <p>
+                        在專題過程中,體驗到了很多是課堂上沒有教但必須實作的,例如:資料庫如何架設在雲端?如何將網站上線?這些都必須靠自己
+                    與組員共同摸索解決,也因此培養了解決問題的能力。除了基本的份內工作,同時負責協調組員間的意見統整,也學到了許多團隊
+                    合作的經驗。
+                    再轉職路上雖然會比較波折,但會用更多的心力和時間,去增進自己的能力,加上以往的工作經驗輔佐,期許自己能夠有很好的發
+                    揮,希望能加入貴司。
+                    </p>                   
+                </p>
+            </div>
+        </div>
+        <div id="footer">
+            <p>{{copyright}} {{name}} {{year}}</p>
+        </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.js'></script>
+    <script>
+        ; (function () {
+            //Vue Start Here
+            new Vue({
+                el: '#footer',
+                data: {
+                    copyright: '©',
+                    name: "BenT",
+                    year: new Date().getFullYear(),
+                }
+            })
+        })()
+
+    </script>
+</body>
+
+</html>
